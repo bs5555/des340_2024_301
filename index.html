@@ -5,14 +5,40 @@
     <meta name="description" content="My first webpage">
     <meta charset="utf-8">
     <link rel="icon" href="res/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="res/global.css" type="text/css">
+    <style>
+
+  body{ font-family:'Helvetica'; }
+  div.rtf{max-width:60ch; padding:40px; margin:0 auto; font-size:clamp(12px, 1.5vw, 20px);}
+
+  div.rtf p{font-size:0.8em; line-height:1.8em;
+    margin-bottom:1.4em; text-align:justify; hyphens:auto;
+  }
+
+  div.rtf h1{font-size:3em; line-height:1.8em; margin-bottom:0.8em;}
+  div.rtf h2{font-size:1.8em; line-height:1.8em;margin-bottom:0.8em;}
+  div.rtf h3{font-size:1.2em; line-height:1.8em;margin-bottom:0.8em;}
+  div.rtf h4{font-size:1em; line-height:1.8em;margin-bottom:0.8em;}
+  div.rtf h5{font-size:0.8em; line-height:1.8em;margin-bottom:0.8em;}
+  div.rtf h6{font-size:0.8em; line-height:1.8em;margin-bottom:0.8em;}
+
+  div.rtf ol{list-style-type: integer;}
+  div.rtf li{font-size:0.8em; line-height:1.8em;
+    margin-bottom:1.4em; margin-left:2em; text-align:justify; hyphens:auto;}
+
+
+
+    </style>
   </head>
   <body>
-    <h1>One pager design</h1>
-    <h2>Subtitle</h2>
-    <p>In our first exercise, we will design a so called one pager site. One pagers are websites from a single page.<br>Most of them has a single purpose: to make people to do something. It is Call to action.</p>
+    <div class="rtf">
+    <h1 class="first">One pager design</h1>
 
-    <h2>How to do that?</h2>
-    <p>Select a project from kickstarter.com. The purpose of the website is to make people to back the project.</p>
+    <h2>Subtitle</h2>
+    <p class="first">In our first exercise, we will design a so called one pager site. One pagers are websites from a single page.<br>Most of them has a single purpose: to make people to do something. It is Call to action.</p>
+
+    <h3>How to do that?</h3>
+    <p class="first">Select a project from kickstarter.com. The purpose of the website is to make people to back the project.</p>
 
     <p>Here are some guidelines:</p>
 
@@ -23,7 +49,7 @@
     What is the difference? The ukulele is ready, there is a target audience and a price for the product.</li>
 
     <li>Select a project with considerable content.
-    Example: https://www.kickstarter.com/projects/clickpackpro/snappack-travel-commute-and-anti-theft
+    Example: <a href="https://www.kickstarter.com/projects/clickpackpro/snappack-travel-commute-and-anti-theft">Click here</a>
     There is a lot of explanation about the project and high resolution images from the product without any graphics and text on them.
     Tip: check the official website of the product for high resolution images</li>
 
@@ -34,10 +60,10 @@
     Once you selected your product, save all the text and images from the browser (there is a save webpage command in every browser). Remember: The project on the Kickstarter can be cancelled any time, so be sure, you have the content.</li>
     </ol>
 
-    Wireframing
-    Wireframes are blueprints for websites. Websites are too complex to design them at once, like a print. Wireframes are drafts, what show the structure and the operation of thw website but not the design.
+    <h3>Wireframing</h3>
+    <p>Wireframes are blueprints for websites. Websites are too complex to design them at once, like a print. Wireframes are drafts, what show the structure and the operation of thw website but not the design.</p>
 
-    They are easy to create and change, so ideal way to make your ideas clear. Today we show thwm to clients. That's why we don't use any real design elements (colors, images, fonts and typography). We have to make clear, that they are blueprints, not graphics designs.
-
+    <p>They are easy to create and change, so ideal way to make your ideas clear. Today we show thwm to clients. That's why we don't use any real design elements (colors, images, fonts and typography). We have to make clear, that they are blueprints, not graphics designs.</p>
+  </div>
   </body>
 </html>
